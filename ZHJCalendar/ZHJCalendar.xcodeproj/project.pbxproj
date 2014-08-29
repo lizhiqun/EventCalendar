@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E721EA7F15674517009DF710 /* bg_calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6515674517009DF710 /* bg_calendar@2x.png */; };
+		E721EA8015674517009DF710 /* bg_calendar_footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6615674517009DF710 /* bg_calendar_footer@2x.png */; };
+		E721EA8115674517009DF710 /* bg_calendar_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6715674517009DF710 /* bg_calendar_header@2x.png */; };
+		E721EA8215674517009DF710 /* bg_calendar_week_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6815674517009DF710 /* bg_calendar_week_header@2x.png */; };
+		E721EA8315674517009DF710 /* bg_grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6915674517009DF710 /* bg_grid@2x.png */; };
+		E721EA8415674517009DF710 /* btn_choose_date_left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6A15674517009DF710 /* btn_choose_date_left_arrow@2x.png */; };
+		E721EA8515674517009DF710 /* btn_choose_date_left_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6B15674517009DF710 /* btn_choose_date_left_arrow_highlight@2x.png */; };
+		E721EA8615674517009DF710 /* btn_choose_date_right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6C15674517009DF710 /* btn_choose_date_right_arrow@2x.png */; };
+		E721EA8715674517009DF710 /* btn_choose_date_right_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6D15674517009DF710 /* btn_choose_date_right_arrow_highlight@2x.png */; };
+		E721EA8815674517009DF710 /* btn_choose_departure_date@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6E15674517009DF710 /* btn_choose_departure_date@2x.png */; };
+		E721EA8915674517009DF710 /* btn_chose_date@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA6F15674517009DF710 /* btn_chose_date@2x.png */; };
+		E721EA8A15674517009DF710 /* btn_chose_date_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7015674517009DF710 /* btn_chose_date_highlight@2x.png */; };
+		E721EA8B15674517009DF710 /* btn_close_date@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7115674517009DF710 /* btn_close_date@2x.png */; };
+		E721EA8C15674517009DF710 /* btn_close_date_hihglight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7215674517009DF710 /* btn_close_date_hihglight@2x.png */; };
+		E721EA8D15674517009DF710 /* btn_grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7315674517009DF710 /* btn_grid@2x.png */; };
+		E721EA8E15674517009DF710 /* btn_grid_cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7415674517009DF710 /* btn_grid_cell@2x.png */; };
+		E721EA8F15674517009DF710 /* btn_grid_cell_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7515674517009DF710 /* btn_grid_cell_highlight@2x.png */; };
+		E721EA9015674517009DF710 /* btn_grid_cell_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7615674517009DF710 /* btn_grid_cell_selected@2x.png */; };
+		E721EA9115674517009DF710 /* btn_grid_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7715674517009DF710 /* btn_grid_highlight@2x.png */; };
+		E721EA9215674517009DF710 /* btn_grid_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7815674517009DF710 /* btn_grid_selected@2x.png */; };
+		E721EA9315674517009DF710 /* btn_next_month@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7915674517009DF710 /* btn_next_month@2x.png */; };
+		E721EA9415674517009DF710 /* btn_next_month_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7A15674517009DF710 /* btn_next_month_highlight@2x.png */; };
+		E721EA9515674517009DF710 /* btn_previous_month@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7B15674517009DF710 /* btn_previous_month@2x.png */; };
+		E721EA9615674517009DF710 /* btn_previous_month_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7C15674517009DF710 /* btn_previous_month_highlight@2x.png */; };
+		E721EA9715674517009DF710 /* btn_radio_check_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7D15674517009DF710 /* btn_radio_check_box@2x.png */; };
+		E721EA9815674517009DF710 /* btn_radio_check_box_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E721EA7E15674517009DF710 /* btn_radio_check_box_selected@2x.png */; };
+		E721EABF1567451F009DF710 /* ITTCalendarGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EA9C1567451F009DF710 /* ITTCalendarGridView.m */; };
+		E721EAC01567451F009DF710 /* ITTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EA9E1567451F009DF710 /* ITTCalendarView.m */; };
+		E721EAC21567451F009DF710 /* ITTCalendarViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAA31567451F009DF710 /* ITTCalendarViewFooterView.m */; };
+		E721EAC31567451F009DF710 /* ITTCalendarViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAA51567451F009DF710 /* ITTCalendarViewHeaderView.m */; };
+		E721EAC41567451F009DF710 /* ITTBaseCalendarDisableGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAA91567451F009DF710 /* ITTBaseCalendarDisableGridView.m */; };
+		E721EAC51567451F009DF710 /* ITTBaseCalendarDisableGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E721EAAA1567451F009DF710 /* ITTBaseCalendarDisableGridView.xib */; };
+		E721EAC61567451F009DF710 /* ITTBaseCalendarGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAAC1567451F009DF710 /* ITTBaseCalendarGridView.m */; };
+		E721EAC71567451F009DF710 /* ITTBaseCalendarGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E721EAAD1567451F009DF710 /* ITTBaseCalendarGridView.xib */; };
+		E721EAC81567451F009DF710 /* ITTBaseCalendarViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAAF1567451F009DF710 /* ITTBaseCalendarViewFooterView.m */; };
+		E721EAC91567451F009DF710 /* ITTBaseCalendarViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E721EAB01567451F009DF710 /* ITTBaseCalendarViewFooterView.xib */; };
+		E721EACA1567451F009DF710 /* ITTBaseCalendarViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAB21567451F009DF710 /* ITTBaseCalendarViewHeaderView.m */; };
+		E721EACB1567451F009DF710 /* ITTBaseCalendarViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E721EAB31567451F009DF710 /* ITTBaseCalendarViewHeaderView.xib */; };
+		E721EACC1567451F009DF710 /* ITTBaseDataSourceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EAB51567451F009DF710 /* ITTBaseDataSourceImp.m */; };
+		E721EACE1567451F009DF710 /* ITTCalDay.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EABA1567451F009DF710 /* ITTCalDay.m */; };
+		E721EACF1567451F009DF710 /* ITTCalMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EABC1567451F009DF710 /* ITTCalMonth.m */; };
+		E721EAD01567451F009DF710 /* CalendarDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E721EABE1567451F009DF710 /* CalendarDateUtil.m */; };
+		E74B7F201536659700315E1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74B7F1F1536659700315E1A /* UIKit.framework */; };
+		E74B7F221536659700315E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74B7F211536659700315E1A /* Foundation.framework */; };
+		E74B7F241536659700315E1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74B7F231536659700315E1A /* CoreGraphics.framework */; };
+		E74B7F2A1536659700315E1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E74B7F281536659700315E1A /* InfoPlist.strings */; };
+		E74B7F2C1536659700315E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B7F2B1536659700315E1A /* main.m */; };
+		E74B7F301536659700315E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B7F2F1536659700315E1A /* AppDelegate.m */; };
+		E74B7F331536659700315E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B7F321536659700315E1A /* ViewController.m */; };
+		E74B7F361536659700315E1A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74B7F341536659700315E1A /* ViewController.xib */; };
+		E775E0DF15F49B940043D1FA /* ITTCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E775E0DE15F49B930043D1FA /* ITTCalendarView.xib */; };
+		E77EF3CB1537D38B0026DDB5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77EF3CA1537D38B0026DDB5 /* QuartzCore.framework */; };
+		E7B900BF156A4099006924FA /* ITTCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B900BE156A4099006924FA /* ITTCalendarScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E721EA6515674517009DF710 /* bg_calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_calendar@2x.png"; sourceTree = "<group>"; };
+		E721EA6615674517009DF710 /* bg_calendar_footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_calendar_footer@2x.png"; sourceTree = "<group>"; };
+		E721EA6715674517009DF710 /* bg_calendar_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_calendar_header@2x.png"; sourceTree = "<group>"; };
+		E721EA6815674517009DF710 /* bg_calendar_week_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_calendar_week_header@2x.png"; sourceTree = "<group>"; };
+		E721EA6915674517009DF710 /* bg_grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_grid@2x.png"; sourceTree = "<group>"; };
+		E721EA6A15674517009DF710 /* btn_choose_date_left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose_date_left_arrow@2x.png"; sourceTree = "<group>"; };
+		E721EA6B15674517009DF710 /* btn_choose_date_left_arrow_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose_date_left_arrow_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA6C15674517009DF710 /* btn_choose_date_right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose_date_right_arrow@2x.png"; sourceTree = "<group>"; };
+		E721EA6D15674517009DF710 /* btn_choose_date_right_arrow_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose_date_right_arrow_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA6E15674517009DF710 /* btn_choose_departure_date@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose_departure_date@2x.png"; sourceTree = "<group>"; };
+		E721EA6F15674517009DF710 /* btn_chose_date@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_chose_date@2x.png"; sourceTree = "<group>"; };
+		E721EA7015674517009DF710 /* btn_chose_date_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_chose_date_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA7115674517009DF710 /* btn_close_date@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_date@2x.png"; sourceTree = "<group>"; };
+		E721EA7215674517009DF710 /* btn_close_date_hihglight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_date_hihglight@2x.png"; sourceTree = "<group>"; };
+		E721EA7315674517009DF710 /* btn_grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grid@2x.png"; sourceTree = "<group>"; };
+		E721EA7415674517009DF710 /* btn_grid_cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grid_cell@2x.png"; sourceTree = "<group>"; };
+		E721EA7515674517009DF710 /* btn_grid_cell_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grid_cell_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA7615674517009DF710 /* btn_grid_cell_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grid_cell_selected@2x.png"; sourceTree = "<group>"; };
+		E721EA7715674517009DF710 /* btn_grid_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grid_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA7815674517009DF710 /* btn_grid_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grid_selected@2x.png"; sourceTree = "<group>"; };
+		E721EA7915674517009DF710 /* btn_next_month@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_month@2x.png"; sourceTree = "<group>"; };
+		E721EA7A15674517009DF710 /* btn_next_month_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_month_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA7B15674517009DF710 /* btn_previous_month@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_previous_month@2x.png"; sourceTree = "<group>"; };
+		E721EA7C15674517009DF710 /* btn_previous_month_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_previous_month_highlight@2x.png"; sourceTree = "<group>"; };
+		E721EA7D15674517009DF710 /* btn_radio_check_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_radio_check_box@2x.png"; sourceTree = "<group>"; };
+		E721EA7E15674517009DF710 /* btn_radio_check_box_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_radio_check_box_selected@2x.png"; sourceTree = "<group>"; };
+		E721EA9B1567451F009DF710 /* ITTCalendarGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarGridView.h; sourceTree = "<group>"; };
+		E721EA9C1567451F009DF710 /* ITTCalendarGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalendarGridView.m; sourceTree = "<group>"; };
+		E721EA9D1567451F009DF710 /* ITTCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarView.h; sourceTree = "<group>"; };
+		E721EA9E1567451F009DF710 /* ITTCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalendarView.m; sourceTree = "<group>"; };
+		E721EAA01567451F009DF710 /* ITTCalendarViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarViewDataSource.h; sourceTree = "<group>"; };
+		E721EAA11567451F009DF710 /* ITTCalendarViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarViewDelegate.h; sourceTree = "<group>"; };
+		E721EAA21567451F009DF710 /* ITTCalendarViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarViewFooterView.h; sourceTree = "<group>"; };
+		E721EAA31567451F009DF710 /* ITTCalendarViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalendarViewFooterView.m; sourceTree = "<group>"; };
+		E721EAA41567451F009DF710 /* ITTCalendarViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarViewHeaderView.h; sourceTree = "<group>"; };
+		E721EAA51567451F009DF710 /* ITTCalendarViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalendarViewHeaderView.m; sourceTree = "<group>"; };
+		E721EAA61567451F009DF710 /* Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		E721EAA81567451F009DF710 /* ITTBaseCalendarDisableGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTBaseCalendarDisableGridView.h; sourceTree = "<group>"; };
+		E721EAA91567451F009DF710 /* ITTBaseCalendarDisableGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTBaseCalendarDisableGridView.m; sourceTree = "<group>"; };
+		E721EAAA1567451F009DF710 /* ITTBaseCalendarDisableGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITTBaseCalendarDisableGridView.xib; sourceTree = "<group>"; };
+		E721EAAB1567451F009DF710 /* ITTBaseCalendarGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTBaseCalendarGridView.h; sourceTree = "<group>"; };
+		E721EAAC1567451F009DF710 /* ITTBaseCalendarGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTBaseCalendarGridView.m; sourceTree = "<group>"; };
+		E721EAAD1567451F009DF710 /* ITTBaseCalendarGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITTBaseCalendarGridView.xib; sourceTree = "<group>"; };
+		E721EAAE1567451F009DF710 /* ITTBaseCalendarViewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTBaseCalendarViewFooterView.h; sourceTree = "<group>"; };
+		E721EAAF1567451F009DF710 /* ITTBaseCalendarViewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTBaseCalendarViewFooterView.m; sourceTree = "<group>"; };
+		E721EAB01567451F009DF710 /* ITTBaseCalendarViewFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITTBaseCalendarViewFooterView.xib; sourceTree = "<group>"; };
+		E721EAB11567451F009DF710 /* ITTBaseCalendarViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTBaseCalendarViewHeaderView.h; sourceTree = "<group>"; };
+		E721EAB21567451F009DF710 /* ITTBaseCalendarViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTBaseCalendarViewHeaderView.m; sourceTree = "<group>"; };
+		E721EAB31567451F009DF710 /* ITTBaseCalendarViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITTBaseCalendarViewHeaderView.xib; sourceTree = "<group>"; };
+		E721EAB41567451F009DF710 /* ITTBaseDataSourceImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTBaseDataSourceImp.h; sourceTree = "<group>"; };
+		E721EAB51567451F009DF710 /* ITTBaseDataSourceImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTBaseDataSourceImp.m; sourceTree = "<group>"; };
+		E721EAB91567451F009DF710 /* ITTCalDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalDay.h; sourceTree = "<group>"; };
+		E721EABA1567451F009DF710 /* ITTCalDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalDay.m; sourceTree = "<group>"; };
+		E721EABB1567451F009DF710 /* ITTCalMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalMonth.h; sourceTree = "<group>"; };
+		E721EABC1567451F009DF710 /* ITTCalMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalMonth.m; sourceTree = "<group>"; };
+		E721EABD1567451F009DF710 /* CalendarDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDateUtil.h; sourceTree = "<group>"; };
+		E721EABE1567451F009DF710 /* CalendarDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDateUtil.m; sourceTree = "<group>"; };
+		E74B7F1B1536659700315E1A /* ZHJCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74B7F1F1536659700315E1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E74B7F211536659700315E1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E74B7F231536659700315E1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E74B7F271536659700315E1A /* ZHJCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZHJCalendar-Info.plist"; sourceTree = "<group>"; };
+		E74B7F291536659700315E1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E74B7F2B1536659700315E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E74B7F2D1536659700315E1A /* ZHJCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZHJCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		E74B7F2E1536659700315E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E74B7F2F1536659700315E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E74B7F311536659700315E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E74B7F321536659700315E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E74B7F351536659700315E1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E74B7F4315366BB700315E1A /* ITTDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITTDebug.h; sourceTree = "<group>"; };
+		E775E0DE15F49B930043D1FA /* ITTCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITTCalendarView.xib; sourceTree = "<group>"; };
+		E77EF3CA1537D38B0026DDB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7B900BD156A4098006924FA /* ITTCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTCalendarScrollView.h; sourceTree = "<group>"; };
+		E7B900BE156A4099006924FA /* ITTCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTCalendarScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74B7F181536659700315E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77EF3CB1537D38B0026DDB5 /* QuartzCore.framework in Frameworks */,
+				E74B7F201536659700315E1A /* UIKit.framework in Frameworks */,
+				E74B7F221536659700315E1A /* Foundation.framework in Frameworks */,
+				E74B7F241536659700315E1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E721EA6415674517009DF710 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E721EA6515674517009DF710 /* bg_calendar@2x.png */,
+				E721EA6615674517009DF710 /* bg_calendar_footer@2x.png */,
+				E721EA6715674517009DF710 /* bg_calendar_header@2x.png */,
+				E721EA6815674517009DF710 /* bg_calendar_week_header@2x.png */,
+				E721EA6915674517009DF710 /* bg_grid@2x.png */,
+				E721EA6A15674517009DF710 /* btn_choose_date_left_arrow@2x.png */,
+				E721EA6B15674517009DF710 /* btn_choose_date_left_arrow_highlight@2x.png */,
+				E721EA6C15674517009DF710 /* btn_choose_date_right_arrow@2x.png */,
+				E721EA6D15674517009DF710 /* btn_choose_date_right_arrow_highlight@2x.png */,
+				E721EA6E15674517009DF710 /* btn_choose_departure_date@2x.png */,
+				E721EA6F15674517009DF710 /* btn_chose_date@2x.png */,
+				E721EA7015674517009DF710 /* btn_chose_date_highlight@2x.png */,
+				E721EA7115674517009DF710 /* btn_close_date@2x.png */,
+				E721EA7215674517009DF710 /* btn_close_date_hihglight@2x.png */,
+				E721EA7315674517009DF710 /* btn_grid@2x.png */,
+				E721EA7415674517009DF710 /* btn_grid_cell@2x.png */,
+				E721EA7515674517009DF710 /* btn_grid_cell_highlight@2x.png */,
+				E721EA7615674517009DF710 /* btn_grid_cell_selected@2x.png */,
+				E721EA7715674517009DF710 /* btn_grid_highlight@2x.png */,
+				E721EA7815674517009DF710 /* btn_grid_selected@2x.png */,
+				E721EA7915674517009DF710 /* btn_next_month@2x.png */,
+				E721EA7A15674517009DF710 /* btn_next_month_highlight@2x.png */,
+				E721EA7B15674517009DF710 /* btn_previous_month@2x.png */,
+				E721EA7C15674517009DF710 /* btn_previous_month_highlight@2x.png */,
+				E721EA7D15674517009DF710 /* btn_radio_check_box@2x.png */,
+				E721EA7E15674517009DF710 /* btn_radio_check_box_selected@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E721EA991567451F009DF710 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				E721EA9A1567451F009DF710 /* Core */,
+				E721EAA71567451F009DF710 /* Imp */,
+				E721EAB81567451F009DF710 /* Model */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		E721EA9A1567451F009DF710 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E775E0DE15F49B930043D1FA /* ITTCalendarView.xib */,
+				E721EA9B1567451F009DF710 /* ITTCalendarGridView.h */,
+				E721EA9C1567451F009DF710 /* ITTCalendarGridView.m */,
+				E721EA9D1567451F009DF710 /* ITTCalendarView.h */,
+				E721EA9E1567451F009DF710 /* ITTCalendarView.m */,
+				E721EAA01567451F009DF710 /* ITTCalendarViewDataSource.h */,
+				E721EAA11567451F009DF710 /* ITTCalendarViewDelegate.h */,
+				E721EAA21567451F009DF710 /* ITTCalendarViewFooterView.h */,
+				E721EAA31567451F009DF710 /* ITTCalendarViewFooterView.m */,
+				E721EAA41567451F009DF710 /* ITTCalendarViewHeaderView.h */,
+				E721EAA51567451F009DF710 /* ITTCalendarViewHeaderView.m */,
+				E7B900BD156A4098006924FA /* ITTCalendarScrollView.h */,
+				E7B900BE156A4099006924FA /* ITTCalendarScrollView.m */,
+				E721EAA61567451F009DF710 /* Enum.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E721EAA71567451F009DF710 /* Imp */ = {
+			isa = PBXGroup;
+			children = (
+				E721EAA81567451F009DF710 /* ITTBaseCalendarDisableGridView.h */,
+				E721EAA91567451F009DF710 /* ITTBaseCalendarDisableGridView.m */,
+				E721EAAA1567451F009DF710 /* ITTBaseCalendarDisableGridView.xib */,
+				E721EAAB1567451F009DF710 /* ITTBaseCalendarGridView.h */,
+				E721EAAC1567451F009DF710 /* ITTBaseCalendarGridView.m */,
+				E721EAAD1567451F009DF710 /* ITTBaseCalendarGridView.xib */,
+				E721EAAE1567451F009DF710 /* ITTBaseCalendarViewFooterView.h */,
+				E721EAAF1567451F009DF710 /* ITTBaseCalendarViewFooterView.m */,
+				E721EAB01567451F009DF710 /* ITTBaseCalendarViewFooterView.xib */,
+				E721EAB11567451F009DF710 /* ITTBaseCalendarViewHeaderView.h */,
+				E721EAB21567451F009DF710 /* ITTBaseCalendarViewHeaderView.m */,
+				E721EAB31567451F009DF710 /* ITTBaseCalendarViewHeaderView.xib */,
+				E721EAB41567451F009DF710 /* ITTBaseDataSourceImp.h */,
+				E721EAB51567451F009DF710 /* ITTBaseDataSourceImp.m */,
+			);
+			path = Imp;
+			sourceTree = "<group>";
+		};
+		E721EAB81567451F009DF710 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E721EAB91567451F009DF710 /* ITTCalDay.h */,
+				E721EABA1567451F009DF710 /* ITTCalDay.m */,
+				E721EABB1567451F009DF710 /* ITTCalMonth.h */,
+				E721EABC1567451F009DF710 /* ITTCalMonth.m */,
+				E721EABD1567451F009DF710 /* CalendarDateUtil.h */,
+				E721EABE1567451F009DF710 /* CalendarDateUtil.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E74B7F101536659600315E1A = {
+			isa = PBXGroup;
+			children = (
+				E74B7F251536659700315E1A /* ZHJCalendar */,
+				E74B7F1E1536659700315E1A /* Frameworks */,
+				E74B7F1C1536659700315E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74B7F1C1536659700315E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74B7F1B1536659700315E1A /* ZHJCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74B7F1E1536659700315E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E77EF3CA1537D38B0026DDB5 /* QuartzCore.framework */,
+				E74B7F1F1536659700315E1A /* UIKit.framework */,
+				E74B7F211536659700315E1A /* Foundation.framework */,
+				E74B7F231536659700315E1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74B7F251536659700315E1A /* ZHJCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E721EA991567451F009DF710 /* Src */,
+				E74B7F4315366BB700315E1A /* ITTDebug.h */,
+				E74B7F2E1536659700315E1A /* AppDelegate.h */,
+				E74B7F2F1536659700315E1A /* AppDelegate.m */,
+				E74B7F311536659700315E1A /* ViewController.h */,
+				E74B7F321536659700315E1A /* ViewController.m */,
+				E74B7F341536659700315E1A /* ViewController.xib */,
+				E74B7F261536659700315E1A /* Supporting Files */,
+			);
+			path = ZHJCalendar;
+			sourceTree = "<group>";
+		};
+		E74B7F261536659700315E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E721EA6415674517009DF710 /* Images */,
+				E74B7F271536659700315E1A /* ZHJCalendar-Info.plist */,
+				E74B7F281536659700315E1A /* InfoPlist.strings */,
+				E74B7F2B1536659700315E1A /* main.m */,
+				E74B7F2D1536659700315E1A /* ZHJCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74B7F1A1536659700315E1A /* ZHJCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74B7F391536659700315E1A /* Build configuration list for PBXNativeTarget "ZHJCalendar" */;
+			buildPhases = (
+				E74B7F171536659700315E1A /* Sources */,
+				E74B7F181536659700315E1A /* Frameworks */,
+				E74B7F191536659700315E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHJCalendar;
+			productName = ZHJCalendar;
+			productReference = E74B7F1B1536659700315E1A /* ZHJCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74B7F121536659600315E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = itotemstudio;
+			};
+			buildConfigurationList = E74B7F151536659600315E1A /* Build configuration list for PBXProject "ZHJCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E74B7F101536659600315E1A;
+			productRefGroup = E74B7F1C1536659700315E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74B7F1A1536659700315E1A /* ZHJCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74B7F191536659700315E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74B7F2A1536659700315E1A /* InfoPlist.strings in Resources */,
+				E74B7F361536659700315E1A /* ViewController.xib in Resources */,
+				E721EA7F15674517009DF710 /* bg_calendar@2x.png in Resources */,
+				E721EA8015674517009DF710 /* bg_calendar_footer@2x.png in Resources */,
+				E721EA8115674517009DF710 /* bg_calendar_header@2x.png in Resources */,
+				E721EA8215674517009DF710 /* bg_calendar_week_header@2x.png in Resources */,
+				E721EA8315674517009DF710 /* bg_grid@2x.png in Resources */,
+				E721EA8415674517009DF710 /* btn_choose_date_left_arrow@2x.png in Resources */,
+				E721EA8515674517009DF710 /* btn_choose_date_left_arrow_highlight@2x.png in Resources */,
+				E721EA8615674517009DF710 /* btn_choose_date_right_arrow@2x.png in Resources */,
+				E721EA8715674517009DF710 /* btn_choose_date_right_arrow_highlight@2x.png in Resources */,
+				E721EA8815674517009DF710 /* btn_choose_departure_date@2x.png in Resources */,
+				E721EA8915674517009DF710 /* btn_chose_date@2x.png in Resources */,
+				E721EA8A15674517009DF710 /* btn_chose_date_highlight@2x.png in Resources */,
+				E721EA8B15674517009DF710 /* btn_close_date@2x.png in Resources */,
+				E721EA8C15674517009DF710 /* btn_close_date_hihglight@2x.png in Resources */,
+				E721EA8D15674517009DF710 /* btn_grid@2x.png in Resources */,
+				E721EA8E15674517009DF710 /* btn_grid_cell@2x.png in Resources */,
+				E721EA8F15674517009DF710 /* btn_grid_cell_highlight@2x.png in Resources */,
+				E721EA9015674517009DF710 /* btn_grid_cell_selected@2x.png in Resources */,
+				E721EA9115674517009DF710 /* btn_grid_highlight@2x.png in Resources */,
+				E721EA9215674517009DF710 /* btn_grid_selected@2x.png in Resources */,
+				E721EA9315674517009DF710 /* btn_next_month@2x.png in Resources */,
+				E721EA9415674517009DF710 /* btn_next_month_highlight@2x.png in Resources */,
+				E721EA9515674517009DF710 /* btn_previous_month@2x.png in Resources */,
+				E721EA9615674517009DF710 /* btn_previous_month_highlight@2x.png in Resources */,
+				E721EA9715674517009DF710 /* btn_radio_check_box@2x.png in Resources */,
+				E721EA9815674517009DF710 /* btn_radio_check_box_selected@2x.png in Resources */,
+				E721EAC51567451F009DF710 /* ITTBaseCalendarDisableGridView.xib in Resources */,
+				E721EAC71567451F009DF710 /* ITTBaseCalendarGridView.xib in Resources */,
+				E721EAC91567451F009DF710 /* ITTBaseCalendarViewFooterView.xib in Resources */,
+				E721EACB1567451F009DF710 /* ITTBaseCalendarViewHeaderView.xib in Resources */,
+				E775E0DF15F49B940043D1FA /* ITTCalendarView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74B7F171536659700315E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74B7F2C1536659700315E1A /* main.m in Sources */,
+				E74B7F301536659700315E1A /* AppDelegate.m in Sources */,
+				E74B7F331536659700315E1A /* ViewController.m in Sources */,
+				E721EABF1567451F009DF710 /* ITTCalendarGridView.m in Sources */,
+				E721EAC01567451F009DF710 /* ITTCalendarView.m in Sources */,
+				E721EAC21567451F009DF710 /* ITTCalendarViewFooterView.m in Sources */,
+				E721EAC31567451F009DF710 /* ITTCalendarViewHeaderView.m in Sources */,
+				E721EAC41567451F009DF710 /* ITTBaseCalendarDisableGridView.m in Sources */,
+				E721EAC61567451F009DF710 /* ITTBaseCalendarGridView.m in Sources */,
+				E721EAC81567451F009DF710 /* ITTBaseCalendarViewFooterView.m in Sources */,
+				E721EACA1567451F009DF710 /* ITTBaseCalendarViewHeaderView.m in Sources */,
+				E721EACC1567451F009DF710 /* ITTBaseDataSourceImp.m in Sources */,
+				E721EACE1567451F009DF710 /* ITTCalDay.m in Sources */,
+				E721EACF1567451F009DF710 /* ITTCalMonth.m in Sources */,
+				E721EAD01567451F009DF710 /* CalendarDateUtil.m in Sources */,
+				E7B900BF156A4099006924FA /* ITTCalendarScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E74B7F281536659700315E1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74B7F291536659700315E1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E74B7F341536659700315E1A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74B7F351536659700315E1A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74B7F371536659700315E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Scott Lee (94JG5K3RP2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDA041B9-CC68-4945-9CCC-25605BB395C1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E74B7F381536659700315E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74B7F3A1536659700315E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Scott Lee (94JG5K3RP2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHJCalendar/ZHJCalendar-Prefix.pch";
+				INFOPLIST_FILE = "ZHJCalendar/ZHJCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDA041B9-CC68-4945-9CCC-25605BB395C1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E74B7F3B1536659700315E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHJCalendar/ZHJCalendar-Prefix.pch";
+				INFOPLIST_FILE = "ZHJCalendar/ZHJCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74B7F151536659600315E1A /* Build configuration list for PBXProject "ZHJCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74B7F371536659700315E1A /* Debug */,
+				E74B7F381536659700315E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74B7F391536659700315E1A /* Build configuration list for PBXNativeTarget "ZHJCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74B7F3A1536659700315E1A /* Debug */,
+				E74B7F3B1536659700315E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74B7F121536659600315E1A /* Project object */;
+}
